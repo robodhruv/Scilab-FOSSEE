@@ -1,4 +1,4 @@
-function tform = MYaffine3d(varargin)
+function tform = affine3d(varargin)
     [index num] = argn(0); // num would store the number of input parameters given to the function
     tform = struct(); // This is the return variable of the function
     
